@@ -4,8 +4,27 @@ html, body {
     margin: 0px;
 }
 
-#map{
-  width: calc(100% / 12 * 8);
+.conteiner {
+  display: flex;
   height: 100%;
   margin: 0px;
+}
+
+#map{
+  width: calc(100% / 12 * 8);
+}
+
+.workMenu {
+  display: flex;
+  width: calc(100% / 12 * 4);
+  align-items: center;
+  justify-content: center;
+}
+
+.zonesSearch__button {
+  background: 0;
+  border: 1px solid orange;
+  border-radius: 3px;
+  padding: 0.5em;
+  font-size: 16px;
 }

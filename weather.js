@@ -1,1 +1,0 @@
-https://weather.api.here.com/weather/1.0/report.json?app_id=aersyuCBIlTEN1WM2VGu&app_code=r13p1Y7dafTAiPFjOahwrg&product=forecast_hourly&name=Krasnodar&language=russian
