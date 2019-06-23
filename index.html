@@ -13,10 +13,43 @@
     <link rel="stylesheet" type="text/css" href="index.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"
         integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA==" crossorigin=""/>
+
     <title>Relief</title>
   </head>
   <body>
     <div id="map"></div>
+<!-- Gismeteo informer START -->
+<link rel="stylesheet" type="text/css" href="https://nst1.gismeteo.ru/assets/flat-ui/legacy/css/informer.min.css">
+
+<div id="gsInformerID-p205o4l1Od82qJ" class="gsInformer" style="width:210px;height:213px">
+    <div class="gsIContent">
+        <div id="cityLink">
+            <a href="https://www.gismeteo.ru/weather-krasnodar-5136/" target="_blank" title="Погода в Краснодаре"><img src="https://nst1.gismeteo.ru/assets/flat-ui/img/gisloader.svg" width="24" height="24" alt="Погода в Краснодаре"></a>
+        </div>
+        <div class="gsLinks">
+            <table>
+                <tr>
+                    <td>
+                        <div class="leftCol">
+                            <a href="https://www.gismeteo.ru/" target="_blank" title="Погода в Краснодаре">
+                                <img alt="Погода в Краснодаре" src="https://nst1.gismeteo.ru/assets/flat-ui/img/logo-mini2.png" align="middle" border="0" width="11" height="16" />
+                                <img src="https://nst1.gismeteo.ru/assets/flat-ui/img/informer/gismeteo.svg" border="0" align="middle" style="left: 5px; top:1px">
+                            </a>
+                            </div>
+                            <div class="rightCol">
+                                <a href="https://www.gismeteo.ru/weather-krasnodar-5136/2-weeks/" target="_blank" title="Погода в Краснодаре на 2 недели">
+                                    <img src="https://nst1.gismeteo.ru/assets/flat-ui/img/informer/forecast-2weeks.ru.svg" border="0" align="middle" style="top:auto" alt="Погода в Краснодаре на 2 недели">
+                                </a>
+                            </div>
+                                            </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+
+<script async src="https://www.gismeteo.ru/api/informer/getinformer/?hash=p205o4l1Od82qJ"></script>
+<!-- Gismeteo informer END -->
 
     <script src="index.js"></script>
   </body>
